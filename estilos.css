@@ -1,79 +1,153 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
 body{
-    background-image: url(babyfondo2.jpg);
+    background-image: url(fondo.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-heder
+
+header #logo img
 {
-    width: 100%;
+   float: left;
+    width: 150px
+}
+header #principal 
+{
+    float: center;
+    font-family: Gigi;
+    font-size: 350%;
+    padding: 0.8em;
 }
 
-header #logo img{
-      width: 50%;
-      margin: 2em 2em;
-}
+/*nav
+{
 
-header #principal
+}*/
+
+nav ul
 {
-    text-align: center;
-    font-family: berylium;
-    margin: 2em;
-    font-size: 200%;
-    
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
-nav
+nav ul li
 {
-    width: 100%;
     display: inline-block;
+    margin: 3em 0em 5em 0em;
+   
 }
-nav #icono img
-{
-    width: 30%;
-    align-content: center;
-    margin: 0 auto;
-}
-nav #icono1 img
-{
-    width: 29%;
-    align-content: center;
-    margin: 0 auto;   
-}
-#contenido
-{
-    width: 100%;
-    margin: 0 auto;
-}
+
 #contenido .secundario
 {
-    font-family: berylium;
     text-align: center;
-    font-size: 200%;
-    
+    font-family: gabriola;
+    font-size: 2.5em;
 }
-#contenido p
-{
-    text-align: center;
-    font-family: cursive;
-    background: #f5d89d;
-    margin: 1em 10em 10em 2em;
-    padding: 5em;
-    align-content: center;
-    
-}
-#contenido #cigu img
-{
-align-content: center;
-    margin: 0 auto;
-    width: 60%;
-    right: auto;
 
+#contenido1 .secundario
+{
+    text-align: center;
+    font-family: gabriola;
+    font-size: 2.5em;
 }
+
+
+#contenido2 .secundario
+{
+    text-align: center;
+    font-family: gabriola;
+    font-size: 2.5em;
+}
+#contenido .articulo .parrafo
+{
+    font-family: gabriola;
+    font-size: 2em;
+    margin: 80px;
+    text-align: justify;
+}
+
+#contenido1 .articulo .parrafo
+{
+    font-family: gabriola;
+    font-size: 2em;
+    margin: 80px;
+    text-align: justify;
+}
+
+#contenido2 .articulo .parrafo
+{
+    font-family: gabriola;
+    font-size: 2em;
+    margin: 80px;
+    text-align: justify;
+}
+
+nav #figura img
+{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  
+}
+
+#contenido #figura1 img
+{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  
+}
+
+#contenido1 #figura2 img
+{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  
+}
+
+#contenido2 #figura3 img
+{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 footer
 {
-text-align: center;
-    font-family: cursive;
-    margin: 2em 2em;
-    font-size: 150%;
-
+display: inline;
 
 }
+footer .coche
+{
+    float: left;
+
+}
+
+footer .parrafo
+{
+    margin: 1em 0 0 0;
+    padding: 1.5em;
+    font-family: alex brush;
+    font-size: 1.7em;
+    text-align: center
+}
+
+footer .sociales
+{
+    float: right;
+    padding: -5em 0 0 0;
+    margin: 0 0 50em -10em;
+    
+    
+
+}
+
